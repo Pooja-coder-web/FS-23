@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: white;
+    background-color: red;
+    text-align: center;
+}
+.nav{
+    background-color: black;
+    overflow: hidden;
+}
+.nav a{
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float:left
+    /* margin-left: 2rem; */
+}
+.nav input[type=text]{
+    float: right;
+    border: none;
+    padding: 5px;
+    margin-top: 9px;
+    margin-right: 20rem;
+    font-size: 15px;
+    width: 30rem;
+    border: 1px solid #ccc;
+}
+img{
+    /* max-width: 100%; */
+    max-height: 25rem;
+  /* float: left;*/
+    background-size: cover; 
+    display: block;
+    width: 100%;
+}
